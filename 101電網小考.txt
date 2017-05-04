@@ -1,0 +1,49 @@
+因為怕大家對於日誌檔過於陌生，
+所以在這邊列出一些Linux上常會需要閱讀的日誌檔格式。
+
+Apache http://httpd.apache.org/docs/2.0/logs.html
+
+Auth   "時間 主機名稱 程式 : 事件"
+               e.g.
+Feb 11 03:55:20 localhost sshd[30015]: (pam_unix) authentication failure; \
+logname= uid=0 euid=0 tty=ssh ruser= rhost=66.212.18.86  user=root
+
+以上這兩個日誌檔的資訊蠻基本的，希望大家一定要懂…。
+至於對其他日誌有興趣的，可以來211問助教群。
+
+
+本學期電網考試禁用X-Window環境,
+一律以文字命令列模式進行考試,
+若使用視窗環境,請當場切換至命令列模式進行考試.
+
+小考分兩部份：
+第一部份是基本題型
+第二部份是當場抽考題
+
+第一部份屬於基礎的Linux操作範圍,
+主要有...
+  1.作業系統安裝。
+  2.網路設定(IP位置)。
+  3.Apache+PHP安裝，設定各個使用者下的public_html成為個人網頁空間。
+  4.Mysql資料庫安裝及設定資料庫之root帳號密碼  並登入成功。
+  5.ssh安裝設定,使他人能遠端連線。
+  6.export語系。
+  7.帳號及檔案管理(新增群組 使用者,密碼更改,chown,chmod)。
+  8.wget 及 tar 指令的使用
+  9.利用文字編輯器特定內容及檔名。
+  10.用tar指令將上述8.9兩項的資料壓縮起來。
+  11.利用scp指令把10的檔案傳輸到指定ip。
+  12.察看系統日誌（log）
+以上為必考
+
+第二部份則是當場抽考題,每人考試現場抽一題
+        A. 設定iptables
+        B. 安裝nmap與使用nmap
+        C. 安裝vnc server並run在背景模式。
+        D. ps , kill指令
+        E. mount指令
+        F. find指令
+        G. free、du、fdisk、df指令及cpu資訊察看
+        H. crontab指令的設定及使用
+        第二部份亦為各組期末專題中常會用到之指令
+
